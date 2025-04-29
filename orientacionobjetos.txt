@@ -68,3 +68,38 @@ cuantos objetos hay.
 
 S.O
 
+
+  en ese casos -> compilar persona. 
+
+compilar hijos. 
+
+cd app 
+javac Persona.java 
+
+produce -> persona.class 
+
+JVM JVRE JDK 
+JDK -> java development kit. javak -> convierte a .class 
+JDM -> java virtual machine. en tiempo de ejecución 
+JRE -> java run time environment -> para web ubung -> tomcat. 
+
+xampp. 
+
+diferencias -> ????? 
+
+ejecutor de java -> .class 
+
+compilación en main -> 
+cd .. 
+javac Main.java -> main class 
+
+Java Main 
+
+
+Java zse
+ SOUT -> 
+SHORTCODE 
+
+
+
+
