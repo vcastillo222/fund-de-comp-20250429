@@ -1,0 +1,70 @@
+
+f(Cn) = A Cn -> atributo. 
+
+F(Cm) = M Cm -> método. 
+
+PRINCIPIOS S.O.L.I.D. -> single responsability 
+
+paradigma -> representación. 
+El paradigma de la orientación a objetos es la representación de un objeto (algo que existe) -> objetos -> características y comportamiento. 
+
+Objetos son almacenados en memoria. 
+
+Cn -> carac. Cm -> comportamiento. 
+Forma y acción. (Cn y Cm)
+
+Formas normales, normalización. 
+
+
+Principios SOLID -> 
+
+open - close. 
+private, public. (respecto la información) 
+Principio de liscov (barbara liscov) profundización respecto reutilización de objetos-> clases de clases. -> HERENCIA. 
+
+ej: auto, camión, moto, transportes terrestres -> clase de clases. -> principio de herencia. 
+
+Barbara liscov -> crece en herencia"" clases reutilizables -> sin perder principio SOLID  -> single responsability, open-close, liscov. 
+
+framework (development kits) -> se basan en un principio. -> polimorfismo. //// (poder adaptar una características pero cambiar el comportamiento) 
+-> Compartir un comportamiento, pero cambiar el método por objeto (juan -> caminar. pepe -> caminar, pepe no tiene piernas, pero la acción se adapta para el objeto (las peronas caminan)) ejemplo polimorfismo. 
+
+java. 
+
+-> lenguaje orientado a objetos. Estricto. 
+
+-> tiene una separación -> package. -> el sistema operativo es una carpeta. 
+
+estructura en java-> programa principal (Main) -> dentro de (main) método público con minuuscula. 
+
+Main -> main. 
+
+main -> entrada teclado, salida pantalla. 
+
+
+main -> scan, print, manda y recibe cosas. 
+
+cert en java -> Java X SE 
+
+
+composición -> se compone 
+
+persona. 
+rut.
+nombre. 
+
+
+|
+v
+
+Main 
+main.
+
+persona se puede crear muchas. 
+
+modelos de base de datos. cardinalidad. 
+
+cuantos objetos hay. 
+
+S.O
+
