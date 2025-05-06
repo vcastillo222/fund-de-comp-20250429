@@ -1,0 +1,73 @@
+taller 7 temas. 
+
+demostraciones para taller 7 
+medir tiempo en java. 
+registrar en archivo y en sistema operativo. 
+
+long -> integer de mayor precisión. 
+
+time -> milisegundos de nanosegundos, microsegundos, milisegundos, etc. -> start time -> gran valor. 
+
+Se puede más adelante usar, restar, obtener los milisegundos demorado.
+
+
+
+system.out.println"tiempo" + execution time + m/n; 
+
+problema de java -> memoria -> partidas de las combinaciones de concadenaciones de strings. 
+1, 2, 3, 4, 5, 6 -> todas las combinaciones se ocupan en memoria. 
+
+escalando -> saturan la memoria. Práctica de poca eficiencia. 
+
+Class -> string builder. 
+
+
+stringbuilder sld = new string builder();
+sld.append "tiempo"; 
+sld.append execution time; 
+sld.apppend "ms slash n"; 
+
+system.out.println sld.tostring(); 
+
+solo se ocupa un espacio de memoria adaptado. -> estructura ya con espacio en memoria, le da el espacio () en stringbuilder, evalua el tamaño, agrega el espacio, luego agrega la pieza. 
+
+solo maneja un espacio, en comparación de las combinaciones anterior mencionadas. 
+
+
+librerías java -> 
+
+import java.io.filewriter; 
+import java.io 
+
+
+import output. 
+
+io -> todos los dispositivos perisfericos laterales que tengan una unidad central -> mouse, teclado, etc. 
+
+
+
+import.io.IDException -> razones por no uso de un archivo, excepciones. 
+
+
+
+elementos externos -> try () {   filterwriter writer = new filterwriter(tiempo.txt); llama al constructor de la clase. le da el estado inicial al objeto. } catch(idexception e) { system.err.println(e.getus);} 
+estado -> conjunto de valores que otorgan características, forma. 
+
+tiempo en filewriter -> borra el archivo, coloca el dato- > sobreescribir. 
+
+registra un valor.  
+
+ try (  filterwriter writer = new filterwriter(tiempo.txt, boolean append -> el dato nuevo lo anexan al final. true        )
+ {    stringbuilder sld = new stringbuilder(); sld.appeand slash n; writer.write/execytuibtune long -> no es compatible. se debe convertir el tipo de dato. sld.valueof(executiontime) (solo el valor) 
+ writer.write(sld.tostring()} 
+ catch(idexception e) { system.err.println(e.getus);} 
+ cada vez que se registre, queda en el final del archivo. 
+
+guardar datos de una matriz unidimensional. 
+
+guardar n matrices bidimencionales. 
+
+
+
+
+
